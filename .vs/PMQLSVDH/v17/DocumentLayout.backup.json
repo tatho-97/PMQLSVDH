@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\usercontrolsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:usercontrolsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\usercontrolsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:usercontrolsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\themsinhvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:themsinhvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\usercontrolcaidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:usercontrolcaidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\usercontrolkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:usercontrolkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControlSinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlSinhVien.cs",
+              "RelativeDocumentMoniker": "UserControlSinhVien.cs",
+              "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlSinhVien.cs",
+              "RelativeToolTip": "UserControlSinhVien.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:23:01.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControlSinhVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlSinhVien.cs",
+              "RelativeDocumentMoniker": "UserControlSinhVien.cs",
+              "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlSinhVien.cs [Design]",
+              "RelativeToolTip": "UserControlSinhVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:19:35.891Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThemSinhVienForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\ThemSinhVienForm.cs",
+              "RelativeDocumentMoniker": "ThemSinhVienForm.cs",
+              "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\ThemSinhVienForm.cs [Design]",
+              "RelativeToolTip": "ThemSinhVienForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:19:28.654Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserControlCaiDat.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlCaiDat.cs",
+              "RelativeDocumentMoniker": "UserControlCaiDat.cs",
+              "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlCaiDat.cs [Design]",
+              "RelativeToolTip": "UserControlCaiDat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:16:22.038Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\AdminForm.cs",
+              "RelativeDocumentMoniker": "AdminForm.cs",
+              "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\AdminForm.cs [Design]",
+              "RelativeToolTip": "AdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:16:06.611Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserControlKhoa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlKhoa.cs",
+              "RelativeDocumentMoniker": "UserControlKhoa.cs",
+              "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlKhoa.cs [Design]",
+              "RelativeToolTip": "UserControlKhoa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T07:22:37.916Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
