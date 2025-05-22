@@ -41,6 +41,7 @@ namespace PMQLSVDH
         {
             navigationControl.Display(1);
             navigationButton.Highlight(buttonLopHoc);
+            DatabaseHelper.LoadDataGV("GV001", lopHoc.dataGridView);
         }
 
         private void buttonCaiDat_Click(object sender, EventArgs e)
