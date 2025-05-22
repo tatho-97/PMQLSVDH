@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            button1 = new Button();
             tableLayoutPanel1 = new TableLayoutPanel();
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
+            textBoxUsername = new TextBox();
+            textBoxPassword = new TextBox();
             panel1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
@@ -50,6 +50,15 @@
             panel1.Size = new Size(1015, 341);
             panel1.TabIndex = 0;
             // 
+            // button1
+            // 
+            button1.Location = new Point(768, 250);
+            button1.Name = "button1";
+            button1.Size = new Size(136, 37);
+            button1.TabIndex = 1;
+            button1.Text = "ĐỔI MẬT KHẨU";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 2;
@@ -57,8 +66,8 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Controls.Add(label1, 0, 0);
             tableLayoutPanel1.Controls.Add(label2, 0, 1);
-            tableLayoutPanel1.Controls.Add(textBox1, 1, 0);
-            tableLayoutPanel1.Controls.Add(textBox2, 1, 1);
+            tableLayoutPanel1.Controls.Add(textBoxUsername, 1, 0);
+            tableLayoutPanel1.Controls.Add(textBoxPassword, 1, 1);
             tableLayoutPanel1.Location = new Point(48, 38);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 2;
@@ -87,33 +96,25 @@
             label2.TabIndex = 1;
             label2.Text = "Password:";
             // 
-            // textBox1
+            // textBoxUsername
             // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Font = new Font("Segoe UI", 12F);
-            textBox1.Location = new Point(446, 3);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 29);
-            textBox1.TabIndex = 2;
+            textBoxUsername.BorderStyle = BorderStyle.FixedSingle;
+            textBoxUsername.Font = new Font("Segoe UI", 12F);
+            textBoxUsername.Location = new Point(446, 3);
+            textBoxUsername.Name = "textBoxUsername";
+            textBoxUsername.ReadOnly = true;
+            textBoxUsername.Size = new Size(200, 29);
+            textBoxUsername.TabIndex = 2;
             // 
-            // textBox2
+            // textBoxPassword
             // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Font = new Font("Segoe UI", 12F);
-            textBox2.Location = new Point(446, 94);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 29);
-            textBox2.TabIndex = 3;
-            textBox2.UseSystemPasswordChar = true;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(768, 250);
-            button1.Name = "button1";
-            button1.Size = new Size(136, 37);
-            button1.TabIndex = 1;
-            button1.Text = "ĐỔI MẬT KHẨU";
-            button1.UseVisualStyleBackColor = true;
+            textBoxPassword.BorderStyle = BorderStyle.FixedSingle;
+            textBoxPassword.Font = new Font("Segoe UI", 12F);
+            textBoxPassword.Location = new Point(446, 94);
+            textBoxPassword.Name = "textBoxPassword";
+            textBoxPassword.Size = new Size(200, 29);
+            textBoxPassword.TabIndex = 3;
+            textBoxPassword.UseSystemPasswordChar = true;
             // 
             // UserControlCaiDat
             // 
@@ -134,8 +135,8 @@
         private TableLayoutPanel tableLayoutPanel1;
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox textBoxUsername;
+        private TextBox textBoxPassword;
         private Button button1;
     }
 }

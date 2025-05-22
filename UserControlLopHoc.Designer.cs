@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            label12 = new Label();
+            comboBoxLop = new ComboBox();
             buttonSearch = new Button();
             textBoxSearch = new TextBox();
             label1 = new Label();
@@ -58,8 +60,6 @@
             buttonXoa = new Button();
             buttonSua = new Button();
             dateTimePickerNgaySinh = new DateTimePicker();
-            comboBoxLop = new ComboBox();
-            label12 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             panel2.SuspendLayout();
@@ -79,6 +79,25 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1344, 400);
             panel1.TabIndex = 2;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 12F);
+            label12.Location = new Point(40, 50);
+            label12.Name = "label12";
+            label12.Size = new Size(40, 21);
+            label12.TabIndex = 5;
+            label12.Text = "Lớp:";
+            // 
+            // comboBoxLop
+            // 
+            comboBoxLop.Font = new Font("Segoe UI", 12F);
+            comboBoxLop.FormattingEnabled = true;
+            comboBoxLop.Location = new Point(40, 80);
+            comboBoxLop.Name = "comboBoxLop";
+            comboBoxLop.Size = new Size(230, 29);
+            comboBoxLop.TabIndex = 4;
             // 
             // buttonSearch
             // 
@@ -111,9 +130,17 @@
             // 
             // dataGridView
             // 
+            dataGridView.AllowUserToAddRows = false;
+            dataGridView.AllowUserToDeleteRows = false;
+            dataGridView.AllowUserToResizeColumns = false;
+            dataGridView.AllowUserToResizeRows = false;
+            dataGridView.BackgroundColor = SystemColors.Control;
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView.Location = new Point(300, 20);
             dataGridView.Name = "dataGridView";
+            dataGridView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView.ShowCellErrors = false;
+            dataGridView.ShowRowErrors = false;
             dataGridView.Size = new Size(1024, 360);
             dataGridView.TabIndex = 0;
             // 
@@ -409,25 +436,6 @@
             dateTimePickerNgaySinh.Size = new Size(297, 29);
             dateTimePickerNgaySinh.TabIndex = 23;
             // 
-            // comboBoxLop
-            // 
-            comboBoxLop.Font = new Font("Segoe UI", 12F);
-            comboBoxLop.FormattingEnabled = true;
-            comboBoxLop.Location = new Point(40, 80);
-            comboBoxLop.Name = "comboBoxLop";
-            comboBoxLop.Size = new Size(230, 29);
-            comboBoxLop.TabIndex = 4;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Segoe UI", 12F);
-            label12.Location = new Point(40, 50);
-            label12.Name = "label12";
-            label12.Size = new Size(40, 21);
-            label12.TabIndex = 5;
-            label12.Text = "Lớp:";
-            // 
             // UserControlLopHoc
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -450,7 +458,7 @@
         private Button buttonSearch;
         private TextBox textBoxSearch;
         private Label label1;
-        private DataGridView dataGridView;
+        public DataGridView dataGridView;
         private Panel panel2;
         private TableLayoutPanel tableLayoutPanel;
         private Label label2;

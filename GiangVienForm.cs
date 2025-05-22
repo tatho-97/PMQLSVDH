@@ -4,12 +4,12 @@ namespace PMQLSVDH
     {
         private NavigationControl navigationControl;
         private NavigationButton navigationButton;
-        private UserControlTrangChu trangChu = new UserControlTrangChu();
-        private UserControlLopHoc lopHoc = new UserControlLopHoc();
-        private UserControlCaiDat caiDat = new UserControlCaiDat();
+        private UserControlTrangChu trangChu;
+        private UserControlLopHoc lopHoc;
+        private UserControlCaiDat caiDat;
 
-        private Color btnDefaultColor = Color.FromKnownColor(KnownColor.ControlLight);
-        private Color btnSelectedColor = Color.FromKnownColor(KnownColor.ControlDark);
+        private readonly Color btnDefaultColor = Color.FromKnownColor(KnownColor.ControlLight);
+        private readonly Color btnSelectedColor = Color.FromKnownColor(KnownColor.ControlDark);
         public GiangVienForm()
         {
             InitializeComponent();
@@ -19,14 +19,17 @@ namespace PMQLSVDH
 
         private void InitializeNavigationControl()
         {
-            List<UserControl> userControls = new List<UserControl>() { trangChu, lopHoc, caiDat };
+            trangChu = new UserControlTrangChu();
+            lopHoc = new UserControlLopHoc();
+            caiDat = new UserControlCaiDat();
+            var userControls = new List<UserControl> { trangChu, lopHoc, caiDat };
             navigationControl = new NavigationControl(userControls, panel);
             navigationControl.Display(0);
         }
 
         private void InitializeNavigationButton()
         {
-            List<Button> buttons = new List<Button>() { buttonTrangChu, buttonLopHoc, buttonCaiDat };
+            var buttons = new List<Button> { buttonTrangChu, buttonLopHoc, buttonCaiDat };
             navigationButton = new NavigationButton(buttons, btnDefaultColor, btnSelectedColor);
             navigationButton.Highlight(buttonTrangChu);
         }
@@ -41,7 +44,7 @@ namespace PMQLSVDH
         {
             navigationControl.Display(1);
             navigationButton.Highlight(buttonLopHoc);
-            DatabaseHelper.LoadDataGV("GV001", lopHoc.dataGridView);
+            DatabaseHelper.LoadDataGV("GV002", lopHoc.dataGridView);
         }
 
         private void buttonCaiDat_Click(object sender, EventArgs e)
