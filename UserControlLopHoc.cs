@@ -15,6 +15,7 @@ namespace PMQLSVDH
         public UserControlLopHoc()
         {
             InitializeComponent();
+            dataGridView.CellClick += dataGridView_CellClick;
         }
     }
 }
