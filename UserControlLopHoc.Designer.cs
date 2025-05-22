@@ -35,6 +35,15 @@
             textBoxSearch = new TextBox();
             label1 = new Label();
             dataGridView = new DataGridView();
+            LopHoc = new DataGridViewTextBoxColumn();
+            MaSV = new DataGridViewTextBoxColumn();
+            TenSV = new DataGridViewTextBoxColumn();
+            NgaySinh = new DataGridViewTextBoxColumn();
+            GioiTinh = new DataGridViewTextBoxColumn();
+            Diem_CC = new DataGridViewTextBoxColumn();
+            Diem_TX = new DataGridViewTextBoxColumn();
+            Diem_THI = new DataGridViewTextBoxColumn();
+            Diem_HP = new DataGridViewTextBoxColumn();
             panel2 = new Panel();
             tableLayoutPanel = new TableLayoutPanel();
             label2 = new Label();
@@ -136,6 +145,7 @@
             dataGridView.AllowUserToResizeRows = false;
             dataGridView.BackgroundColor = SystemColors.Control;
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView.Columns.AddRange(new DataGridViewColumn[] { LopHoc, MaSV, TenSV, NgaySinh, GioiTinh, Diem_CC, Diem_TX, Diem_THI, Diem_HP });
             dataGridView.Location = new Point(300, 20);
             dataGridView.Name = "dataGridView";
             dataGridView.ReadOnly = true;
@@ -144,6 +154,60 @@
             dataGridView.ShowRowErrors = false;
             dataGridView.Size = new Size(1024, 360);
             dataGridView.TabIndex = 0;
+            // 
+            // LopHoc
+            // 
+            LopHoc.HeaderText = "Lớp";
+            LopHoc.Name = "LopHoc";
+            LopHoc.ReadOnly = true;
+            // 
+            // MaSV
+            // 
+            MaSV.HeaderText = "Mã SV";
+            MaSV.Name = "MaSV";
+            MaSV.ReadOnly = true;
+            // 
+            // TenSV
+            // 
+            TenSV.HeaderText = "Họ và tên";
+            TenSV.Name = "TenSV";
+            TenSV.ReadOnly = true;
+            // 
+            // NgaySinh
+            // 
+            NgaySinh.HeaderText = "Ngày sinh";
+            NgaySinh.Name = "NgaySinh";
+            NgaySinh.ReadOnly = true;
+            // 
+            // GioiTinh
+            // 
+            GioiTinh.HeaderText = "Giới tính";
+            GioiTinh.Name = "GioiTinh";
+            GioiTinh.ReadOnly = true;
+            // 
+            // Diem_CC
+            // 
+            Diem_CC.HeaderText = "Điểm CC";
+            Diem_CC.Name = "Diem_CC";
+            Diem_CC.ReadOnly = true;
+            // 
+            // Diem_TX
+            // 
+            Diem_TX.HeaderText = "Điểm TX";
+            Diem_TX.Name = "Diem_TX";
+            Diem_TX.ReadOnly = true;
+            // 
+            // Diem_THI
+            // 
+            Diem_THI.HeaderText = "Điểm THI";
+            Diem_THI.Name = "Diem_THI";
+            Diem_THI.ReadOnly = true;
+            // 
+            // Diem_HP
+            // 
+            Diem_HP.HeaderText = "Điểm HP";
+            Diem_HP.Name = "Diem_HP";
+            Diem_HP.ReadOnly = true;
             // 
             // panel2
             // 
@@ -487,5 +551,14 @@
         private DateTimePicker dateTimePickerNgaySinh;
         private Label label12;
         private ComboBox comboBoxLop;
+        private DataGridViewTextBoxColumn LopHoc;
+        private DataGridViewTextBoxColumn MaSV;
+        private DataGridViewTextBoxColumn TenSV;
+        private DataGridViewTextBoxColumn NgaySinh;
+        private DataGridViewTextBoxColumn GioiTinh;
+        private DataGridViewTextBoxColumn Diem_CC;
+        private DataGridViewTextBoxColumn Diem_TX;
+        private DataGridViewTextBoxColumn Diem_THI;
+        private DataGridViewTextBoxColumn Diem_HP;
     }
 }

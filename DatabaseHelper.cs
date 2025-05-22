@@ -25,26 +25,15 @@ namespace PMQLSVDH
                 // Sử dụng LEFT JOIN để hiển thị cả sinh viên chưa có điểm
                 string query = @"
                     SELECT 
-                        gv.TenGV AS [Giảng viên],
-                        mh.MaMH AS [Mã môn],
-                        mh.TenMH AS [Tên môn],
-                        lh.MaLop AS [Mã lớp],
-                        lh.TenLop AS [Tên lớp],
+                        lh.TenLop AS [Lớp],
                         sv.MaSV AS [Mã SV],
-                        sv.TenSV AS [Tên SV],
+                        sv.TenSV AS [Họ và tên],
                         sv.NgaySinh AS [Ngày sinh],
                         sv.GioiTinh AS [Giới tính],
-                        sv.DiaChi AS [Địa chỉ],
-                        sv.Email AS [Email],
-                        sv.SDT AS [SĐT],
                         d.Diem_CC AS [Điểm CC],
                         d.Diem_TX AS [Điểm TX],
-                        d.Diem_THI AS [Điểm Thi],
-                        d.Diem_HP AS [Điểm HP],
-                        ROUND(
-                            (COALESCE(d.Diem_CC, 0) + COALESCE(d.Diem_TX, 0) + COALESCE(d.Diem_THI, 0))
-                            / CASE WHEN d.Diem_CC IS NULL OR d.Diem_TX IS NULL OR d.Diem_THI IS NULL THEN NULL ELSE 3 END
-                        , 2) AS [Điểm TB]
+                        d.Diem_THI AS [Điểm THI],
+                        d.Diem_HP AS [Điểm HP]
                     FROM GiangVien gv
                     INNER JOIN GiangDay gd ON gv.MaGV = gd.MaGV
                     INNER JOIN MonHoc mh ON gd.MaMH = mh.MaMH
@@ -52,7 +41,7 @@ namespace PMQLSVDH
                     INNER JOIN SinhVien sv ON sv.MaLop = lh.MaLop
                     LEFT JOIN Diem d ON d.MaSV = sv.MaSV AND d.MaMH = mh.MaMH
                     WHERE gv.MaGV = @MaGV
-                    ORDER BY lh.MaLop, sv.MaSV, mh.MaMH";
+                    ORDER BY lh.MaLop, sv.MaSV";
 
                 using var cmd = new SqliteCommand(query, conn);
                 cmd.Parameters.AddWithValue("@MaGV", MaGV);
@@ -61,15 +50,26 @@ namespace PMQLSVDH
                 var dt = new DataTable();
                 dt.Load(reader);
 
-                dataGridView.AutoGenerateColumns = true;
+                // Tắt tự động tạo cột và ánh xạ dữ liệu vào các cột đã định nghĩa
+                dataGridView.AutoGenerateColumns = false;
+
+                dataGridView.Columns["LopHoc"].DataPropertyName = "Lớp";
+                dataGridView.Columns["MaSV"].DataPropertyName = "Mã SV";
+                dataGridView.Columns["TenSV"].DataPropertyName = "Họ và tên";
+                dataGridView.Columns["NgaySinh"].DataPropertyName = "Ngày sinh";
+                dataGridView.Columns["GioiTinh"].DataPropertyName = "Giới tính";
+                dataGridView.Columns["Diem_CC"].DataPropertyName = "Điểm CC";
+                dataGridView.Columns["Diem_TX"].DataPropertyName = "Điểm TX";
+                dataGridView.Columns["Diem_THI"].DataPropertyName = "Điểm THI";
+                dataGridView.Columns["Diem_HP"].DataPropertyName = "Điểm HP";
+
                 dataGridView.DataSource = dt;
 
                 // Định dạng cột số
-                dataGridView.Columns["Điểm CC"].DefaultCellStyle.Format = "N1";
-                dataGridView.Columns["Điểm TX"].DefaultCellStyle.Format = "N1";
-                dataGridView.Columns["Điểm Thi"].DefaultCellStyle.Format = "N1";
-                dataGridView.Columns["Điểm HP"].DefaultCellStyle.Format = "N1";
-                dataGridView.Columns["Điểm TB"].DefaultCellStyle.Format = "N2";
+                dataGridView.Columns["Diem_CC"].DefaultCellStyle.Format = "N1";
+                dataGridView.Columns["Diem_TX"].DefaultCellStyle.Format = "N1";
+                dataGridView.Columns["Diem_THI"].DefaultCellStyle.Format = "N1";
+                dataGridView.Columns["Diem_HP"].DefaultCellStyle.Format = "N1";
             }
             catch (Exception ex)
             {

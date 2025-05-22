@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\usercontrollophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:usercontrollophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\giangvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:giangvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\usercontrollophoc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:usercontrollophoc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\usercontrollophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:usercontrollophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\giangvienform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:giangvienform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\giangvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|solutionrelative:giangvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{027C4A2A-1AE9-4B6B-BAFA-F037F67C4CA4}|PMQLSVDH.csproj|c:\\users\\duong\\onedrive\\anhttt59(clc)\\pmqlsvdh\\usercontrollophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UserControlLopHoc.Designer.cs",
               "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlLopHoc.Designer.cs",
               "RelativeDocumentMoniker": "UserControlLopHoc.Designer.cs",
-              "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlLopHoc.Designer.cs*",
-              "RelativeToolTip": "UserControlLopHoc.Designer.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlLopHoc.Designer.cs",
+              "RelativeToolTip": "UserControlLopHoc.Designer.cs",
+              "ViewState": "AgIAAPUBAAAAAAAAAAAowGoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T09:23:24.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GiangVienForm.cs",
               "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\GiangVienForm.cs",
               "RelativeDocumentMoniker": "GiangVienForm.cs",
@@ -92,40 +92,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DatabaseHelper.cs",
               "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "DatabaseHelper.cs",
               "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\DatabaseHelper.cs",
               "RelativeToolTip": "DatabaseHelper.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T08:59:06.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserControlLopHoc.cs [Design]",
               "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlLopHoc.cs",
               "RelativeDocumentMoniker": "UserControlLopHoc.cs",
-              "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlLopHoc.cs [Design]*",
-              "RelativeToolTip": "UserControlLopHoc.cs [Design]*",
+              "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlLopHoc.cs [Design]",
+              "RelativeToolTip": "UserControlLopHoc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T09:23:20.092Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "GiangVienForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\GiangVienForm.Designer.cs",
               "RelativeDocumentMoniker": "GiangVienForm.Designer.cs",
               "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\GiangVienForm.Designer.cs",
               "RelativeToolTip": "GiangVienForm.Designer.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwJsAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAA1wJsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:12:40.211Z"
+              "WhenOpened": "2025-05-22T12:12:40.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -160,7 +161,8 @@
               "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\ThemSinhVienForm.cs [Design]",
               "RelativeToolTip": "ThemSinhVienForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T09:19:28.654Z"
+              "WhenOpened": "2025-05-21T09:19:28.654Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -171,7 +173,8 @@
               "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\UserControlCaiDat.cs [Design]",
               "RelativeToolTip": "UserControlCaiDat.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T09:16:22.038Z"
+              "WhenOpened": "2025-05-21T09:16:22.038Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -182,7 +185,8 @@
               "ToolTip": "C:\\Users\\duong\\OneDrive\\ANHTTT59(CLC)\\PMQLSVDH\\AdminForm.cs [Design]",
               "RelativeToolTip": "AdminForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T09:16:06.611Z"
+              "WhenOpened": "2025-05-21T09:16:06.611Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
